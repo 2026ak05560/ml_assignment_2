@@ -21,6 +21,15 @@ The objective of this assignment is to build, evaluate, and deploy five distinct
 | **Naive Bayes** | 0.8700 | 0.9310 | 0.8614 | 0.8812 | 0.8712 | 0.7404 |
 | **Support Vector Machine** | 0.8900 | 0.9480 | 0.8812 | 0.9010 | 0.8910 | 0.7808 |
 
+**Evaluation Metrics**\
+    Accuracy: proportion of all predictions that are correct.\
+    AUC: area under the ROC curve; measures discrimination between positive and negative classes across thresholds.\
+    Precision: proportion of predicted positive cases that are truly positive.\
+    Recall: proportion of actual positive cases correctly identified.\
+    F1: harmonic mean of precision and recall.\
+    MCC: Matthews Correlation Coefficient; summarizes agreement between predicted and actual classes using all four confusion-matrix outcomes. It ranges from -1 to +1.
+
+
 
 **Observations on Model Performance:**\
 **Logistic Regression:** Performed consistently with strong linear separation, achieving high accuracy and balanced precision-recall.\
@@ -30,3 +39,9 @@ The objective of this assignment is to build, evaluate, and deploy five distinct
 **Support Vector Machine (Winner):** Achieved the highest overall accuracy (89.00%), AUC (0.9480), and MCC (0.7808) due to its optimal margin hyperplane separation in scaled feature space.
 
 **Overall Winner:** Support Vector Machine (SVM).
+
+To run the application locally, install the dependencies from requirements.txt and run:
+
+python -m pip install -r requirements.txt \
+python -m streamlit run app.py
+
