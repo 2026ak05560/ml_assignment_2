@@ -1,5 +1,5 @@
 **M.Tech AIML Machine Learning - Assignment 2**\
-** HEART FAILURE PREDICTION DATASET**\
+**HEART FAILURE PREDICTION DATASET**\
 **a. Problem statement**\
 The objective of this assignment is to build, evaluate, and deploy five distinct machine learning classification models (Logistic Regression, Decision Tree, K-Nearest Neighbors, Naive Bayes, and Support Vector Machine) to predict clinical heart disease risk based on patient demographic and physiological diagnostic attributes.
 
@@ -46,3 +46,7 @@ To run the application locally, install the dependencies from requirements.txt a
 python -m pip install -r requirements.txt \
 python -m streamlit run app.py
 
+**Links** \
+**GitHub Repository:** https://github.com/2026ak05560/ml_assignment_2 \
+**Streamlit Application:** https://mlassignment2-fwiof8v7ypetezfxazywtk.streamlit.app/ \
+**Dataset:** [https://archive.ics.uci.edu/dataset/45/heart+disease](https://archive.ics.uci.edu/dataset/45/heart+disease?hl=en-IN)
